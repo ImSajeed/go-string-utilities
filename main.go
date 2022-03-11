@@ -11,11 +11,11 @@ import (
 )
 
 func main() {
-	fmt.Println(generateStrings(false))
-	testValidity("23-ab-48-caba-56-haha")
+	fmt.Println(testValidity("23-ab-48-caba-56-haha"))
 	fmt.Println(averageNumber("23-ab-48-caba-56-haha"))
 	fmt.Println(wholeStory("23-ab-48-caba-56-haha"))
 	fmt.Println(storyStats("23-ab-48-caba-56-haha"))
+	fmt.Println(generateStrings(true))
 }
 
 /*
